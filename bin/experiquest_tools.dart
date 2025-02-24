@@ -1,38 +1,38 @@
 List<String> datas = [
-  '''PRACTICAL RESEARCH 1 
+  '''
+PRACTICAL RESEARCH 1 
 Module 1: Chapter 1
-Lesson 4: Scope and Delimitation of the Study
+Lesson 5: Definition of Terms
 
+1. What is the primary purpose of the Definition of Terms section in a research study?
+A) To present the research findings in a concise manner
+B) To clarify significant terms and concepts used in the study
+C) To summarize the literature review
+D) To provide a general overview of the methodology
 
-1. What does the scope of a study refer to?
-A) The constraints and limitations of the study
-B) The boundaries of the research design and methodology
-C) The range and depth at which the research will be explored
-D) The variables and their characteristics being studied
+2. Which of the following is an example of a theoretical definition of terms?
+A) Children with special needs refer to children with disabilities in Manila's slum areas.
+B) Children with special needs are children with any of the following disabilities: mental retardation, speech impairment, etc.
+C) Children with special needs are those who are diagnosed by a medical professional.
+D) Children with special needs are those participating in a school-based program.
 
-2. How do delimitations in a study differ from the scope?
-A) Delimitations focus on the range of data interpretation, while scope focuses on the variables
-B) Delimitations describe the boundaries and constraints the researcher sets, while the scope defines the range of the study
-C) Delimitations refer to the research methods used, while the scope defines the research questions
-D) Delimitations are irrelevant in the context of research design and methodology
+3. In the operational definition of terms, how are terms described?
+A) Based on their common, ordinary meaning
+B) Based on how they are used in the context of the study
+C) According to their dictionary definitions
+D) In relation to historical events and findings
 
-3. What is an example of a delimitation in a study on bullying among teenagers?
-A) Including all age groups in the study
-B) Focusing only on cyberbullying among teenagers in urban areas
-C) Including both adults and teenagers in the study
-D) Studying bullying in both rural and urban areas without distinction
+4. What is the difference between theoretical and operational definitions of terms?
+A) Theoretical definitions focus on the context of the study, while operational definitions are based on common meanings.
+B) Theoretical definitions provide specific details related to the study, while operational definitions focus on general meanings.
+C) Theoretical definitions describe terms in general terms, while operational definitions are specific to the study's context.
+D) There is no significant difference between theoretical and operational definitions.
 
-4. What does the term "construct" refer to in the context of a study's variables?
-A) A collection of characteristics that can be found in a dictionary
-B) A new characteristic that results from conducting the research
-C) A concept that refers to existing definitions in textbooks
-D) A research method used to manipulate variables
-
-5. Which of the following is NOT typically covered in the scope and delimitation of a study?
-A) The time frame for the study
-B) The specific issues being addressed
-C) The personal opinions of the researcher
-D) The participants' age, sex, or traits
+5. Why is it important to have reliable definitions of terms in a research study?
+A) To ensure that the study’s methodology is fully detailed
+B) To clarify any confusion for the readers and maintain consistency in the research
+C) To make the study sound more professional
+D) To avoid including too many variables in the study
 
 
 ''',
@@ -40,7 +40,7 @@ D) The participants' age, sex, or traits
 
 void main() {
   for (int i = 0; i < datas.length; i++) {
-    int index = i + 5;
+    int index = i + 9;
 
     String data = datas[i];
 
@@ -54,6 +54,7 @@ void main() {
       levelName: Module $module Chapter $chapter Lesson $lesson,
       monsterName: '???',
       bg: 'assets/images/backgrounds/lvl${index % 3}_bg.png',
+      monsterFilename: 'assets/images/monsters/lvl${index % 3}_monster.png',
       lesson: ref.read(reviewersProvider)[${module - 1}].modules[${chapter - 1}].lesson[${lesson - 1}],
       
       questions: [ 
