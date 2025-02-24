@@ -1,0 +1,427 @@
+    Level(
+      level: 3,
+      levelName: Module 1 Chapter 1 Lesson 4,
+      monsterName: '???',
+      bg: 'assets/images/backgrounds/lvl0_bg.png',
+      lesson: ref.read(reviewersProvider)[0].modules[0].lesson[3],
+      monsterFilename: 'assets/images/monsters/lvl0_monster.png',
+      questions: [ 
+        Question(
+          question: "What does the scope of a study refer to?",
+          answer: Choice.C,
+          choices: {
+            Choice.A: "The constraints and limitations of the study",
+            Choice.B: "The boundaries of the research design and methodology",
+            Choice.C: "The range and depth at which the research will be explored",
+            Choice.D: "The variables and their characteristics being studied",
+          },
+        ),
+        Question(
+          question: "How do delimitations in a study differ from the scope?",
+          answer: Choice.B,
+          choices: {
+            Choice.A: "Delimitations focus on the range of data interpretation, while scope focuses on the variables",
+            Choice.B: "Delimitations describe the boundaries and constraints the researcher sets, while the scope defines the range of the study",
+            Choice.C: "Delimitations refer to the research methods used, while the scope defines the research questions",
+            Choice.D: "Delimitations are irrelevant in the context of research design and methodology",
+          },
+        ),
+        Question(
+          question: "What is an example of a delimitation in a study on bullying among teenagers?",
+          answer: Choice.B,
+          choices: {
+            Choice.A: "Including all age groups in the study",
+            Choice.B: "Focusing only on cyberbullying among teenagers in urban areas",
+            Choice.C: "Including both adults and teenagers in the study",
+            Choice.D: "Studying bullying in both rural and urban areas without distinction",
+          },
+        ),
+        Question(
+          question: "What does the term "construct" refer to in the context of a study's variables?",
+          answer: Choice.B,
+          choices: {
+            Choice.A: "A collection of characteristics that can be found in a dictionary",
+            Choice.B: "A new characteristic that results from conducting the research",
+            Choice.C: "A concept that refers to existing definitions in textbooks",
+            Choice.D: "A research method used to manipulate variables",
+          },
+        ),
+        Question(
+          question: "Which of the following is NOT typically covered in the scope and delimitation of a study?",
+          answer: Choice.C,
+          choices: {
+            Choice.A: "The time frame for the study",
+            Choice.B: "The specific issues being addressed",
+            Choice.C: "The personal opinions of the researcher",
+            Choice.D: "The participants' age, sex, or traits",
+          },
+        ),
+      ]
+    ),
+    Level(
+      level: 4,
+      levelName: Module 1 Chapter 1 Lesson 5,
+      monsterName: '???',
+      bg: 'assets/images/backgrounds/lvl1_bg.png',
+      lesson: ref.read(reviewersProvider)[0].modules[0].lesson[4],
+      monsterFilename: 'assets/images/monsters/lvl1_monster.png',
+      questions: [ 
+        Question(
+          question: "What is the primary purpose of the Definition of Terms section in a research study?",
+          answer: Choice.B,
+          choices: {
+            Choice.A: "To present the research findings in a concise manner",
+            Choice.B: "To clarify significant terms and concepts used in the study",
+            Choice.C: "To summarize the literature review",
+            Choice.D: "To provide a general overview of the methodology",
+          },
+        ),
+        Question(
+          question: "Which of the following is an example of a theoretical definition of terms?",
+          answer: Choice.B,
+          choices: {
+            Choice.A: "Children with special needs refer to children with disabilities in Manila's slum areas.",
+            Choice.B: "Children with special needs are children with any of the following disabilities: mental retardation, speech impairment, etc.",
+            Choice.C: "Children with special needs are those who are diagnosed by a medical professional.",
+            Choice.D: "Children with special needs are those participating in a school-based program.",
+          },
+        ),
+        Question(
+          question: "In the operational definition of terms, how are terms described?",
+          answer: Choice.B,
+          choices: {
+            Choice.A: "Based on their common, ordinary meaning",
+            Choice.B: "Based on how they are used in the context of the study",
+            Choice.C: "According to their dictionary definitions",
+            Choice.D: "In relation to historical events and findings",
+          },
+        ),
+        Question(
+          question: "What is the difference between theoretical and operational definitions of terms?",
+          answer: Choice.C,
+          choices: {
+            Choice.A: "Theoretical definitions focus on the context of the study, while operational definitions are based on common meanings.",
+            Choice.B: "Theoretical definitions provide specific details related to the study, while operational definitions focus on general meanings.",
+            Choice.C: "Theoretical definitions describe terms in general terms, while operational definitions are specific to the study's context.",
+            Choice.D: "There is no significant difference between theoretical and operational definitions.",
+          },
+        ),
+        Question(
+          question: "Why is it important to have reliable definitions of terms in a research study?",
+          answer: Choice.B,
+          choices: {
+            Choice.A: "To ensure that the study’s methodology is fully detailed",
+            Choice.B: "To clarify any confusion for the readers and maintain consistency in the research",
+            Choice.C: "To make the study sound more professional",
+            Choice.D: "To avoid including too many variables in the study",
+          },
+        ),
+      ]
+    ),
+    Level(
+      level: 5,
+      levelName: Module 1 Chapter 2 Lesson 1,
+      monsterName: '???',
+      bg: 'assets/images/backgrounds/lvl2_bg.png',
+      lesson: ref.read(reviewersProvider)[0].modules[1].lesson[0],
+      monsterFilename: 'assets/images/monsters/lvl2_monster.png',
+      questions: [ 
+        Question(
+          question: "What is the primary purpose of a literature review?",
+          answer: Choice.B,
+          choices: {
+            Choice.A: "To describe the research methodology",
+            Choice.B: "To establish the research gap and importance of a topic",
+            Choice.C: "To test the validity of previous studies",
+            Choice.D: "To create a list of references",
+          },
+        ),
+        Question(
+          question: "What is a theoretical framework?",
+          answer: Choice.A,
+          choices: {
+            Choice.A: "A system of beliefs used to support and explain research findings",
+            Choice.B: "A collection of raw data for the study",
+            Choice.C: "A guide for analyzing research methodologies",
+            Choice.D: "A method of citing related studies",
+          },
+        ),
+        Question(
+          question: "Which of the following is NOT a characteristic of a good literature review?",
+          answer: Choice.C,
+          choices: {
+            Choice.A: "Uses recently updated materials",
+            Choice.B: "Summarizes and evaluates studies",
+            Choice.C: "Includes unrelated studies for broader context",
+            Choice.D: "Presents clear and logical arguments",
+          },
+        ),
+        Question(
+          question: "How old should materials typically be for an updated literature review?",
+          answer: Choice.B,
+          choices: {
+            Choice.A: "No more than 3 years old",
+            Choice.B: "5–10 years old",
+            Choice.C: "15 years old",
+            Choice.D: "Any age as long as it is cited",
+          },
+        ),
+        Question(
+          question: "A literature review is merely a summary of articles related to the topic",
+          answer: Choice.B,
+          choices: {
+            Choice.A: "True",
+            Choice.B: "False",
+            Choice.C: "Maybe",
+            Choice.D: "Sometimes",
+          },
+        ),
+      ]
+    ),
+    Level(
+      level: 6,
+      levelName: Module 1 Chapter 1 Lesson 2,
+      monsterName: '???',
+      bg: 'assets/images/backgrounds/lvl0_bg.png',
+      lesson: ref.read(reviewersProvider)[0].modules[0].lesson[1],
+      monsterFilename: 'assets/images/monsters/lvl0_monster.png',
+      questions: [ 
+        Question(
+          question: "What is the primary purpose of the Statement of the Problem in research?",
+          answer: Choice.B,
+          choices: {
+            Choice.A: "To summarize the literature review",
+            Choice.B: "To identify gaps in knowledge and set the context for the research",
+            Choice.C: "To explain the data collection methods used",
+            Choice.D: "To provide conclusions for the study",
+          },
+        ),
+        Question(
+          question: "Which of the following is a key criterion for writing the Statement of the Problem, according to Creswell and Clark (2014)?",
+          answer: Choice.C,
+          choices: {
+            Choice.A: "It should contain multiple compound sentences.",
+            Choice.B: "It should focus on two or more variables for a qualitative study.",
+            Choice.C: "It should include the central phenomenon, intent, participants, and research site.",
+            Choice.D: "It should avoid mentioning the natural environment of the participants.",
+          },
+        ),
+        Question(
+          question: "Which of the following is an example of a general research question?",
+          answer: Choice.B,
+          choices: {
+            Choice.A: "How does the stress level of senior high school students affect their academic performance?",
+            Choice.B: "What are the lived experiences of senior high school students facing heavy traffic in Metro Manila?",
+            Choice.C: "How does daily commuting impact the health of senior high school students?",
+            Choice.D: "What coping mechanisms do senior high school students use during heavy traffic?",
+          },
+        ),
+        Question(
+          question: "How do general research questions differ from specific research questions?",
+          answer: Choice.A,
+          choices: {
+            Choice.A: "General questions are broader and address overarching issues, while specific questions focus on precise aspects.",
+            Choice.B: "General questions are used only in quantitative research, while specific questions are used in qualitative research.",
+            Choice.C: "General questions focus on participants, while specific questions focus on the research site.",
+            Choice.D: "General questions contain key concepts, while specific questions avoid them.",
+          },
+        ),
+        Question(
+          question: "Which of the following is NOT a characteristic of a strong research question?",
+          answer: Choice.D,
+          choices: {
+            Choice.A: "It contains the main concepts.",
+            Choice.B: "It correlates key concepts.",
+            Choice.C: "It is answerable through data from participants.",
+            Choice.D: "It avoids focusing on the main problem.",
+          },
+        ),
+      ]
+    ),
+    Level(
+      level: 7,
+      levelName: Module 1 Chapter 1 Lesson 3,
+      monsterName: '???',
+      bg: 'assets/images/backgrounds/lvl1_bg.png',
+      monsterFilename: 'assets/images/monsters/lvl1_monster.png',
+      lesson: ref.read(reviewersProvider)[0].modules[0].lesson[2],
+      questions: [ 
+        Question(
+          question: "What is the primary purpose of the Significance of the Study in a research paper?",
+          answer: Choice.B,
+          choices: {
+            Choice.A: "To summarize the research findings",
+            Choice.B: "To identify the potential beneficiaries and explain how they will benefit",
+            Choice.C: "To describe the methodology used in the study",
+            Choice.D: "To present the study's conclusion",
+          },
+        ),
+        Question(
+          question: "Which of the following formats arranges the significance of the study based on the Statement of the Problem (SOP)?",
+          answer: Choice.B,
+          choices: {
+            Choice.A: "Citation Form",
+            Choice.B: "Paragraph Form",
+            Choice.C: "Enumeration Form",
+            Choice.D: "Abstract Form",
+          },
+        ),
+        Question(
+          question: "In the Enumeration Form of writing the Significance of the Study, how is the content typically arranged?",
+          answer: Choice.C,
+          choices: {
+            Choice.A: "By the specific research questions",
+            Choice.B: "Based on the research methodology",
+            Choice.C: "According to the specific beneficiaries, from most to least benefited",
+            Choice.D: "In chronological order of the research process",
+          },
+        ),
+        Question(
+          question: "Why is it important to explain how a study will contribute to past knowledge in the Significance of the Study?",
+          answer: Choice.B,
+          choices: {
+            Choice.A: "To justify the research design and methods",
+            Choice.B: "To demonstrate the importance of the study and its relevance to existing knowledge",
+            Choice.C: "To present statistical data and findings",
+            Choice.D: "To outline the limitations of the study",
+          },
+        ),
+        Question(
+          question: "Which of the following is a benefit of the Significance of the Study section in a research paper?",
+          answer: Choice.B,
+          choices: {
+            Choice.A: "It presents the research questions and hypotheses.",
+            Choice.B: "It shows how the study will benefit specific groups or organizations.",
+            Choice.C: "It discusses the theoretical framework of the research.",
+            Choice.D: "It provides a detailed analysis of the research methodology.",
+          },
+        ),
+      ]
+    ),
+    Level(
+      level: 8,
+      levelName: Module 1 Chapter 1 Lesson 4,
+      monsterName: '???',
+      bg: 'assets/images/backgrounds/lvl2_bg.png',
+      monsterFilename: 'assets/images/monsters/lvl2_monster.png',
+      lesson: ref.read(reviewersProvider)[0].modules[0].lesson[3],
+      
+      questions: [ 
+        Question(
+          question: "What does the scope of a study refer to?",
+          answer: Choice.C,
+          choices: {
+            Choice.A: "The constraints and limitations of the study",
+            Choice.B: "The boundaries of the research design and methodology",
+            Choice.C: "The range and depth at which the research will be explored",
+            Choice.D: "The variables and their characteristics being studied",
+          },
+        ),
+        Question(
+          question: "How do delimitations in a study differ from the scope?",
+          answer: Choice.B,
+          choices: {
+            Choice.A: "Delimitations focus on the range of data interpretation, while scope focuses on the variables.",
+            Choice.B: "Delimitations describe the boundaries and constraints the researcher sets, while the scope defines the range of the study.",
+            Choice.C: "Delimitations refer to the research methods used, while the scope defines the research questions.",
+            Choice.D: "Delimitations are irrelevant in the context of research design and methodology.",
+          },
+        ),
+        Question(
+          question: "What is an example of a delimitation in a study on bullying among teenagers?",
+          answer: Choice.B,
+          choices: {
+            Choice.A: "Including all age groups in the study",
+            Choice.B: "Focusing only on cyberbullying among teenagers in urban areas",
+            Choice.C: "Including both adults and teenagers in the study",
+            Choice.D: "Studying bullying in both rural and urban areas without distinction",
+          },
+        ),
+        Question(
+          question: "What does the term "construct" refer to in the context of a study's variables?",
+          answer: Choice.B,
+          choices: {
+            Choice.A: "A collection of characteristics that can be found in a dictionary",
+            Choice.B: "A new characteristic that results from conducting the research",
+            Choice.C: "A concept that refers to existing definitions in textbooks",
+            Choice.D: "A research method used to manipulate variables",
+          },
+        ),
+        Question(
+          question: "Which of the following is NOT typically covered in the scope and delimitation of a study?",
+          answer: Choice.C,
+          choices: {
+            Choice.A: "The time frame for the study",
+            Choice.B: "The specific issues being addressed",
+            Choice.C: "The personal opinions of the researcher",
+            Choice.D: "The participants' age, sex, or traits",
+          },
+        ),
+      ]
+    ),
+     Level(
+      level: 9,
+      levelName: Module 1 Chapter 1 Lesson 5,
+      monsterName: '???',
+      bg: 'assets/images/backgrounds/lvl0_bg.png',
+      monsterFilename: 'assets/images/monsters/lvl0_monster.png',
+      lesson: ref.read(reviewersProvider)[0].modules[0].lesson[4],
+      questions: [ 
+        Question(
+          question: "What is the primary purpose of the Definition of Terms section in a research study?",
+          answer: Choice.B,
+          choices: {
+            Choice.A: "To present the research findings in a concise manner",
+            Choice.B: "To clarify significant terms and concepts used in the study",
+            Choice.C: "To summarize the literature review",
+            Choice.D: "To provide a general overview of the methodology",
+          },
+        ),
+        Question(
+          question: "Which of the following is an example of a theoretical definition of terms?",
+          answer: Choice.B,
+          choices: {
+            Choice.A: "Children with special needs refer to children with disabilities in Manila's slum areas.",
+            Choice.B: "Children with special needs are children with any of the following disabilities: mental retardation, speech impairment, etc.",
+            Choice.C: "Children with special needs are those who are diagnosed by a medical professional.",
+            Choice.D: "Children with special needs are those participating in a school-based program.",
+          },
+        ),
+        Question(
+          question: "In the operational definition of terms, how are terms described?",
+          answer: Choice.B,
+          choices: {
+            Choice.A: "Based on their common, ordinary meaning",
+            Choice.B: "Based on how they are used in the context of the study",
+            Choice.C: "According to their dictionary definitions",
+            Choice.D: "In relation to historical events and findings",
+          },
+        ),
+        Question(
+          question: "What is the difference between theoretical and operational definitions of terms?",
+          answer: Choice.C,
+          choices: {
+            Choice.A: "Theoretical definitions focus on the context of the study, while operational definitions are based on common meanings.",
+            Choice.B: "Theoretical definitions provide specific details related to the study, while operational definitions focus on general meanings.",
+            Choice.C: "Theoretical definitions describe terms in general terms, while operational definitions are specific to the study's context.",
+            Choice.D: "There is no significant difference between theoretical and operational definitions.",
+          },
+        ),
+        Question(
+          question: "Why is it important to have reliable definitions of terms in a research study?",
+          answer: Choice.B,
+          choices: {
+            Choice.A: "To ensure that the study’s methodology is fully detailed",
+            Choice.B: "To clarify any confusion for the readers and maintain consistency in the research",
+            Choice.C: "To make the study sound more professional",
+            Choice.D: "To avoid including too many variables in the study",
+          },
+        ),
+      ]
+    ),
+    
+   
+
+
+
+// 1-6
