@@ -419,8 +419,128 @@
         ),
       ]
     ),
+    Level(
+      level: 10,
+      levelName: Module 3 Chapter 3 Lesson 1,
+      monsterName: '???',
+      bg: 'assets/images/backgrounds/lvl1_bg.png',
+      monsterFilename: 'assets/images/monsters/lvl1_monster.png',
+      lesson: ref.read(reviewersProvider)[2].modules[2].lesson[0],
+      questions: [ 
+        Question(
+          question: "What is the primary difference between methods and methodology?",
+          answer: Choice.C,
+          choices: {
+            Choice.A: "Methods include qualitative data analysis (QDA)",
+            Choice.B: "Methodology is narrower than methods",
+            Choice.C: "Methods are the tools used for research, while methodology explains and justifies these tools",
+            Choice.D: "Methods focus solely on ethical considerations",
+          },
+        ),
+        Question(
+          question: "Which of the following is not part of a methodology?",
+          answer: Choice.B,
+          choices: {
+            Choice.A: "The background of the researcher",
+            Choice.B: "Research Findings",
+            Choice.C: "Data Collection Instruments",
+            Choice.D: "Ethical Considerations",
+          },
+        ),
+        Question(
+          question: "What does a methodology explain in addition to listing methods?",
+          answer: Choice.B,
+          choices: {
+            Choice.A: "The background of the researcher",
+            Choice.B: "The justification for the tools and steps used in the study",
+            Choice.C: "The results of the study",
+            Choice.D: "The funding sources of the research",
+          },
+        ),
+        Question(
+          question: "Which of the following is true about the third chapter of a research paper?",
+          answer: Choice.B,
+          choices: {
+            Choice.A: "It focuses exclusively on the research results",
+            Choice.B: "It includes methods such as research design, data collection, and ethical considerations",
+            Choice.C: "It only contains the locale of the study and participants.",
+            Choice.D: "It is unrelated to methods",
+          },
+        ),
+        Question(
+          question: "What is included in qualitative data analysis (QDA)?",
+          answer: Choice.B,
+          choices: {
+            Choice.A: "?",
+            Choice.B: "Analysis of non-numerical data collected during the research",
+            Choice.C: "Identification of research limitations",
+            Choice.D: "Ethical guidelines followed in the study",
+          },
+        ),
+      ]
+    ),
+    Level(
+      level: 11,
+      levelName: Module 3 Chapter 3 Lesson 2,
+      monsterName: '???',
+      bg: 'assets/images/backgrounds/lvl2_bg.png',
+      monsterFilename: 'assets/images/monsters/lvl2_monster.png',
+      lesson: ref.read(reviewersProvider)[2].modules[2].lesson[1],
+      questions: [ 
+        Question(
+          question: "Which of the following is NOT a qualitative research design?",
+          answer: Choice.D,
+          choices: {
+            Choice.A: "Phenomenology",
+            Choice.B: "Ethnography",
+            Choice.C: "Grounded Theory",
+            Choice.D: "Experimental Design",
+          },
+        ),
+        Question(
+          question: "What is the main focus of Phenomenology in qualitative research?",
+          answer: Choice.B,
+          choices: {
+            Choice.A: "Developing a theory about a phenomenon",
+            Choice.B: "Describing the lived experiences of multiple people with a topic or phenomenon",
+            Choice.C: "Exploring a historical event’s impact on the present",
+            Choice.D: "Studying culture-sharing groups",
+          },
+        ),
+        Question(
+          question: "Which qualitative research approach involves studying culture-sharing groups through immersion and observation?",
+          answer: Choice.C,
+          choices: {
+            Choice.A: "Case Study",
+            Choice.B: "Phenomenology",
+            Choice.C: "Ethnography",
+            Choice.D: "Historical Research",
+          },
+        ),
+        Question(
+          question: "What is the purpose of writing a research design?",
+          answer: Choice.B,
+          choices: {
+            Choice.A: "To collect raw data from participants",
+            Choice.B: "To ensure the methods align with the research objectives and enable proper data analysis",
+            Choice.C: "To list the historical events being studied",
+            Choice.D: "To summarize the research findings",
+          },
+        ),
+        Question(
+          question: "Which qualitative research design focuses on obtaining and reporting individual or group stories?",
+          answer: Choice.C,
+          choices: {
+            Choice.A: "Grounded Theory",
+            Choice.B: "Ethnography",
+            Choice.C: "Narrative Inquiry",
+            Choice.D: "Case Study",
+          },
+        ),
+      ]
+    ),
     
-   
+
 
 
 
