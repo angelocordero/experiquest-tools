@@ -180,10 +180,10 @@
     ),
     Level(
       level: 6,
-      levelName: Module 1 Chapter 1 Lesson 2,
+      levelName: Module 1 Chapter 2 Lesson 2,
       monsterName: '???',
       bg: 'assets/images/backgrounds/lvl0_bg.png',
-      lesson: ref.read(reviewersProvider)[0].modules[0].lesson[1],
+      lesson: ref.read(reviewersProvider)[0].modules[1].lesson[1],
       monsterFilename: 'assets/images/monsters/lvl0_monster.png',
       questions: [ 
         Question(
@@ -240,11 +240,11 @@
     ),
     Level(
       level: 7,
-      levelName: Module 1 Chapter 1 Lesson 3,
+      levelName: Module 1 Chapter 2 Lesson 3,
       monsterName: '???',
       bg: 'assets/images/backgrounds/lvl1_bg.png',
       monsterFilename: 'assets/images/monsters/lvl1_monster.png',
-      lesson: ref.read(reviewersProvider)[0].modules[0].lesson[2],
+      lesson: ref.read(reviewersProvider)[0].modules[1].lesson[2],
       questions: [ 
         Question(
           question: "What is the primary purpose of the Significance of the Study in a research paper?",
@@ -300,11 +300,11 @@
     ),
     Level(
       level: 8,
-      levelName: Module 1 Chapter 1 Lesson 4,
+      levelName: Module 1 Chapter 2 Lesson 4,
       monsterName: '???',
       bg: 'assets/images/backgrounds/lvl2_bg.png',
       monsterFilename: 'assets/images/monsters/lvl2_monster.png',
-      lesson: ref.read(reviewersProvider)[0].modules[0].lesson[3],
+      lesson: ref.read(reviewersProvider)[0].modules[1].lesson[3],
       
       questions: [ 
         Question(
@@ -361,11 +361,11 @@
     ),
      Level(
       level: 9,
-      levelName: Module 1 Chapter 1 Lesson 5,
+      levelName: Module 1 Chapter 2 Lesson 5,
       monsterName: '???',
       bg: 'assets/images/backgrounds/lvl0_bg.png',
       monsterFilename: 'assets/images/monsters/lvl0_monster.png',
-      lesson: ref.read(reviewersProvider)[0].modules[0].lesson[4],
+      lesson: ref.read(reviewersProvider)[0].modules[1].lesson[4],
       questions: [ 
         Question(
           question: "What is the primary purpose of the Definition of Terms section in a research study?",
@@ -420,7 +420,7 @@
       ]
     ),
     Level(
-      level: 10,
+      level: 12,
       levelName: Module 3 Chapter 3 Lesson 1,
       monsterName: '???',
       bg: 'assets/images/backgrounds/lvl1_bg.png',
@@ -480,7 +480,7 @@
       ]
     ),
     Level(
-      level: 11,
+      level: 13,
       levelName: Module 3 Chapter 3 Lesson 2,
       monsterName: '???',
       bg: 'assets/images/backgrounds/lvl2_bg.png',
@@ -539,9 +539,604 @@
         ),
       ]
     ),
+    Level(
+      level: 14,
+      levelName: Module 3 Chapter 3 Lesson 3,
+      monsterName: '???',
+      bg: 'assets/images/backgrounds/lvl0_bg.png',
+      monsterFilename: 'assets/images/monsters/lvl0_monster.png',
+      lesson: ref.read(reviewersProvider)[2].modules[2].lesson[2],
+      questions: [ 
+        Question(
+          question: "What is the primary criterion for determining the sample size in qualitative research?",
+          answer: Choice.C,
+          choices: {
+            Choice.A: "The size of the population",
+            Choice.B: "The geographical location of the study",
+            Choice.C: "Data saturation, where no new data emerges or becomes repetitive",
+            Choice.D: "The use of probability sampling techniques",
+          },
+        ),
+        Question(
+          question: "Which sampling technique involves selecting participants based on predetermined criteria related to the research questions?",
+          answer: Choice.B,
+          choices: {
+            Choice.A: "Convenience Sampling",
+            Choice.B: "Purposive Sampling",
+            Choice.C: "Snowball Sampling",
+            Choice.D: "Quota Sampling",
+          },
+        ),
+        Question(
+          question: "What distinguishes non-probability sampling from probability sampling in qualitative research?",
+          answer: Choice.C,
+          choices: {
+            Choice.A: "Non-probability sampling ensures every individual in the population has an equal chance of selection.",
+            Choice.B: "Non-probability sampling uses statistical measures to determine sample size.",
+            Choice.C: "Non-probability sampling selects participants based on specific characteristics relevant to the research questions.",
+            Choice.D: "Non-probability sampling excludes demographics and relies solely on random selection.",
+          },
+        ),
+        Question(
+          question: "Which sampling technique is considered the least credible due to its reliance on ease of finding participants?",
+          answer: Choice.B,
+          choices: {
+            Choice.A: "Purposive Sampling",
+            Choice.B: "Convenience Sampling",
+            Choice.C: "Judgment Sampling",
+            Choice.D: "Snowball Sampling",
+          },
+        ),
+        Question(
+          question: "How does data saturation influence the determination of sample size in qualitative research?",
+          answer: Choice.B,
+          choices: {
+            Choice.A: "It ensures all participants have equal representation.",
+            Choice.B: "It is reached when no new data emerges or becomes too repetitive to impact observed patterns.",
+            Choice.C: "It determines the exact number of participants required for the study.",
+            Choice.D: "It limits the selection of participants to a specific location.",
+          },
+        ),
+      ]
+    ),
+    Level(
+      level: 15,
+      levelName: Module 3 Chapter 3 Lesson 4,
+      monsterName: '???',
+      bg: 'assets/images/backgrounds/lvl1_bg.png',
+      monsterFilename: 'assets/images/monsters/lvl1_monster.png',
+      lesson: ref.read(reviewersProvider)[2].modules[2].lesson[3],
+      questions: [ 
+        Question(
+          question: "Which of the following is NOT a common instrument for collecting qualitative data?",
+          answer: Choice.C,
+          choices: {
+            Choice.A: "Observation",
+            Choice.B: "Focus Group Discussions",
+            Choice.C: "Randomized Controlled Trials",
+            Choice.D: "Document Analysis",
+          },
+        ),
+        Question(
+          question: "Which of the following is NOT a common instrument for collecting qualitative data?",
+          answer: Choice.C,
+          choices: {
+            Choice.A: "Observation",
+            Choice.B: "Focus Group Discussions",
+            Choice.C: "Randomized Controlled Trials",
+            Choice.D: "Document Analysis",
+          },
+        ),
+        Question(
+          question: "Which of the following is NOT a common instrument for collecting qualitative data?",
+          answer: Choice.C,
+          choices: {
+            Choice.A: "Observation",
+            Choice.B: "Focus Group Discussions",
+            Choice.C: "Randomized Controlled Trials",
+            Choice.D: "Document Analysis",
+          },
+        ),
+        Question(
+          question: "Which of the following is NOT a common instrument for collecting qualitative data?",
+          answer: Choice.C,
+          choices: {
+            Choice.A: "Observation",
+            Choice.B: "Focus Group Discussions",
+            Choice.C: "Randomized Controlled Trials",
+            Choice.D: "Document Analysis",
+          },
+        ),
+        Question(
+          question: "Which of the following is NOT a common instrument for collecting qualitative data?",
+          answer: Choice.C,
+          choices: {
+            Choice.A: "Observation",
+            Choice.B: "Focus Group Discussions",
+            Choice.C: "Randomized Controlled Trials",
+            Choice.D: "Document Analysis",
+          },
+        ),
+      ]
+    ),
+    Level(
+      level: 16,
+      levelName: Module 3 Chapter 3 Lesson 5,
+      monsterName: '???',
+      bg: 'assets/images/backgrounds/lvl2_bg.png',
+      monsterFilename: 'assets/images/monsters/lvl2_monster.png',
+      lesson: ref.read(reviewersProvider)[2].modules[2].lesson[4],
+      questions: [ 
+        Question(
+          question: "Which of the following is a phase in qualitative data analysis that involves organizing and preparing the collected data for analysis?",
+          answer: Choice.B,
+          choices: {
+            Choice.A: "Data Analysis",
+            Choice.B: "Data Preparation",
+            Choice.C: "Interpretation and Report Writing",
+            Choice.D: "Data Familiarization",
+          },
+        ),
+        Question(
+          question: "What type of qualitative data analysis involves developing a theory from the data itself through an inductive approach?",
+          answer: Choice.C,
+          choices: {
+            Choice.A: "Thematic Analysis",
+            Choice.B: "Narrative Analysis",
+            Choice.C: "Grounded Theory",
+            Choice.D: "Content Analysis",
+          },
+        ),
+        Question(
+          question: "Which of the following is a challenge in qualitative data analysis related to the researcher's personal biases and interpretations?",
+          answer: Choice.B,
+          choices: {
+            Choice.A: "Data Storage",
+            Choice.B: "Subjectivity and Interpretation",
+            Choice.C: "Ensuring Rigor and Credibility",
+            Choice.D: "Managing Large Amounts of Data",
+          },
+        ),
+        Question(
+          question: "Which of the following is a phase in qualitative data analysis that involves organizing and preparing the collected data for analysis?",
+          answer: Choice.B,
+          choices: {
+            Choice.A: "Data Analysis",
+            Choice.B: "Data Preparation",
+            Choice.C: "Interpretation and Report Writing",
+            Choice.D: "Data Familiarization",
+          },
+        ),
+        Question(
+          question: "What type of qualitative data analysis involves developing a theory from the data itself through an inductive approach?",
+          answer: Choice.C,
+          choices: {
+            Choice.A: "Thematic Analysis",
+            Choice.B: "Narrative Analysis",
+            Choice.C: "Grounded Theory",
+            Choice.D: "Content Analysis",
+          },
+        ),
+      ]
+    ),
+    Level(
+      level: 17,
+      levelName: Module 3 Chapter 3 Lesson 6,
+      monsterName: '???',
+      bg: 'assets/images/backgrounds/lvl0_bg.png',
+      monsterFilename: 'assets/images/monsters/lvl0_monster.png',
+      lesson: ref.read(reviewersProvider)[2].modules[2].lesson[5],
+      questions: [ 
+        Question(
+          question: "Which of the following is the primary purpose of an informed consent form in research?",
+          answer: Choice.B,
+          choices: {
+            Choice.A: "To collect demographic information",
+            Choice.B: "To inform participants about their rights and the study's details",
+            Choice.C: "To guarantee financial compensation for participants",
+            Choice.D: "To obtain participants' personal opinions",
+          },
+        ),
+        Question(
+          question: "Which of the following distinguishes confidentiality from anonymity in research?",
+          answer: Choice.B,
+          choices: {
+            Choice.A: "Confidentiality keeps participant identity unknown, while anonymity keeps data private.",
+            Choice.B: "Confidentiality means the researcher knows the participant's identity but protects the data, while anonymity means the researcher does not know the participant's identity.",
+            Choice.C: "Anonymity refers to protecting emotional well-being, while confidentiality protects personal data.",
+            Choice.D: "There is no difference between confidentiality and anonymity in research.",
+          },
+        ),
+        Question(
+          question: "What is a key factor to include in an informed consent form to ensure that participants understand their involvement in the study?",
+          answer: Choice.B,
+          choices: {
+            Choice.A: "The researcher's personal opinions",
+            Choice.B: "The purpose and objective of the study",
+            Choice.C: "Detailed descriptions of unrelated studies",
+            Choice.D: "The researcher’s salary",
+          },
+        ),
+        Question(
+          question: "What is one of the main ethical concerns regarding the participants in a study?",
+          answer: Choice.B,
+          choices: {
+            Choice.A: "Minimizing the data collection process",
+            Choice.B: "Ensuring participant confidentiality and anonymity",
+            Choice.C: "Increasing the number of participants",
+            Choice.D: "Providing incentives for participation",
+          },
+        ),
+        Question(
+          question: "Which of the following is the primary purpose of an informed consent form in research?",
+          answer: Choice.B,
+          choices: {
+            Choice.A: "To collect demographic information",
+            Choice.B: "To inform participants about their rights and the study's details",
+            Choice.C: "To guarantee financial compensation for participants",
+            Choice.D: "To obtain participants' personal opinions",
+          },
+        ),
+      ]
+    ),
+     Level(
+      level: 18,
+      levelName: Module 4 Chapter 4 Lesson 1,
+      monsterName: '???',
+      bg: 'assets/images/backgrounds/lvl1_bg.png',
+      monsterFilename: 'assets/images/monsters/lvl1_monster.png',
+      lesson: ref.read(reviewersProvider)[3].modules[3].lesson[0],
+      questions: [ 
+        Question(
+          question: "What is the purpose of reflexivity or bracketing in qualitative research?",
+          answer: Choice.C,
+          choices: {
+            Choice.A: "To enhance creativity in data interpretation",
+            Choice.B: "To systematically organize and analyze participants’ responses",
+            Choice.C: "To critically evaluate and eliminate biases in data interpretation",
+            Choice.D: "To identify emerging themes quickly",
+          },
+        ),
+        Question(
+          question: "Which of the following is an example of a personal disclosure in reflexivity?",
+          answer: Choice.A,
+          choices: {
+            Choice.A: ""I have sympathy for student assistants because I was one in high school."",
+            Choice.B: ""Student assistants must balance work and study schedules."",
+            Choice.C: ""The data indicates that family finances often motivate participation in SA programs."",
+            Choice.D: ""Participant A describes their experience in vivid detail.”",
+          },
+        ),
+        Question(
+          question: "Which of the following steps is involved in the process of "classifying" during qualitative data analysis?",
+          answer: Choice.B
+          choices: {
+            Choice.A: "Organizing raw data into smaller units for easier management",
+            Choice.B: "Identifying and labeling concepts or themes from the text",
+            Choice.C: "Writing down observations and emerging ideas from the data",
+            Choice.D: "Giving a comprehensive description of the data's meaning or implications",
+          },
+        ),
+        Question(
+          question: "What is the purpose of memoing in data analysis?",
+          answer: Choice.B,
+          choices: {
+            Choice.A: "To clean the data for analysis",
+            Choice.B: "To write down observations, insights, and emerging ideas",
+            Choice.C: "To organize themes and categories",
+            Choice.D: "To eliminate irrelevant data",
+          },
+        ),
+        Question(
+          question: "In which step are raw transcripts converted into smaller, more manageable units like sentences or phrases?",
+          answer: Choice.A,
+          choices: {
+            Choice.A: "Data management",
+            Choice.B: "Describing",
+            Choice.C: "Memoing",
+            Choice.D: "Classifying",
+          },
+        ),
+      ]
+    ),
+    Level(
+      level: 19,
+      levelName: Module 4 Chapter 4 Lesson 2,
+      monsterName: '???',
+      bg: 'assets/images/backgrounds/lvl2_bg.png',
+      monsterFilename: 'assets/images/monsters/lvl2_monster.png',
+      lesson: ref.read(reviewersProvider)[3].modules[3].lesson[1],
+      questions: [ 
+        Question(
+          question: "This is the process where meaning and significance are attached to data analysis.",
+          answer: Choice.C,
+          choices: {
+            Choice.A: "Data Cleaning",
+            Choice.B: "Describing",
+            Choice.C: "Interpreting",
+            Choice.D: "Coding",
+          },
+        ),
+        Question(
+          question: "This process analyzes the data by grouping them according to themes.",
+          answer: Choice.A,
+          choices: {
+            Choice.A: "Classifying",
+            Choice.B: "Data Cleaning",
+            Choice.C: "Describing",
+            Choice.D: "Memoing",
+          },
+        ),
+        Question(
+          question: "This technique involves reviewing the data for errors that may have resulted from a data entry or coding oversight. This process reduces the data into smaller groupings to make them more manageable.",
+          answer: Choice.D,
+          choices: {
+            Choice.A: "Memoing",
+            Choice.B: "Data Management",
+            Choice.C: "Coding",
+            Choice.D: "Data Cleaning",
+          },
+        ),
+        Question(
+          question: "This process analyzes the text by writing symbols and notes on the transcript.",
+          answer: Choice.B,
+          choices: {
+            Choice.A: "Describing",
+            Choice.B: "Memoing",
+            Choice.C: "Coding",
+            Choice.D: "Classifying",
+          },
+        ),
+        Question(
+          question: "These are codes that become apparent as one reviews the data.",
+          answer: Choice.A,
+          choices: {
+            Choice.A: "In Vivo Coding",
+            Choice.B: "Axial Coding",
+            Choice.C: "Initial Coding",
+            Choice.D: "Advanced Coding",
+          },
+        ),
+      ]
+    ),
+    Level(
+      level: 20,
+      levelName: Module 4 Chapter 4 Lesson 3,
+      monsterName: '???',
+      bg: 'assets/images/backgrounds/lvl0_bg.png',
+      monsterFilename: 'assets/images/monsters/lvl0_monster.png',
+      lesson: ref.read(reviewersProvider)[3].modules[3].lesson[2],
+      questions: [ 
+        Question(
+          question: "The results and the discussion can be written as separate sections.",
+          answer: Choice.A,
+          choices: {
+            Choice.A: "True",
+            Choice.B: "False",
+            Choice.C: "Sometimes",
+            Choice.D: "Maybe",
+          },
+        ),
+        Question(
+          question: "The use of subheadings is discouraged when writing the results and discussion.",
+          answer: Choice.B,
+          choices: {
+            Choice.A: "True",
+            Choice.B: "False",
+            Choice.C: "Sometimes",
+            Choice.D: "Maybe",
+          },
+        ),
+        Question(
+          question: "Research can stand without the discussion portion.",
+          answer: Choice.B,
+          choices: {
+            Choice.A: "True",
+            Choice.B: "False",
+            Choice.C: "Sometimes",
+            Choice.D: "Maybe",
+          },
+        ),
+        Question(
+          question: "The discussion portion is a paraphrased version of the results portion.",
+          answer: Choice.B,
+          choices: {
+            Choice.A: "True",
+            Choice.B: "False",
+            Choice.C: "Sometimes",
+            Choice.D: "Maybe",
+          },
+        ),
+        Question(
+          question: "The discussion portion should link the results to related literature and studies.",
+          answer: Choice.A,
+          choices: {
+            Choice.A: "True",
+            Choice.B: "False",
+            Choice.C: "Sometimes",
+            Choice.D: "Maybe",
+          },
+        ),
+      ]
+    ),
+    Level(
+      level: 21,
+      levelName: Module 5 Chapter 5 Lesson 1,
+      monsterName: '???',
+      bg: 'assets/images/backgrounds/lvl1_bg.png',
+      monsterFilename: 'assets/images/monsters/lvl1_monster.png',
+      lesson: ref.read(reviewersProvider)[4].modules[4].lesson[0],
+      questions: [ 
+        Question(
+          question: "What is the primary purpose of the Summary section?",
+          answer: Choice.B,
+          choices: {
+            Choice.A: "To present detailed numerical data",
+            Choice.B: "To provide a synthesis of data analysis and findings",
+            Choice.C: "To generalize and infer from findings",
+            Choice.D: "To introduce new research questions",
+          },
+        ),
+        Question(
+          question: "Which guideline is emphasized for writing a Summary?",
+          answer: Choice.C,
+          choices: {
+            Choice.A: "Include all detailed numbers and examples",
+            Choice.B: "Ensure the summary introduces new findings",
+            Choice.C: "Maintain one-on-one correspondence with research questions",
+            Choice.D: "Use informal language and avoid clear conclusions",
+          },
+        ),
+        Question(
+          question: "What should be avoided in the Summary section?",
+          answer: Choice.B,
+          choices: {
+            Choice.A: "Rephrasing research questions or objectives",
+            Choice.B: "Inferring and generalizing findings",
+            Choice.C: "Highlighting significant findings concisely",
+            Choice.D: "Writing a clear and concise summary",
+          },
+        ),
+        Question(
+          question: "How should findings be presented in the Summary?",
+          answer: Choice.A,
+          choices: {
+            Choice.A: "Briefly and significantly without detailed examples",
+            Choice.B: "In detailed tables and numerical data",
+            Choice.C: "With generalized conclusions",
+            Choice.D: "Using speculative interpretations",
+          },
+        ),
+        Question(
+          question: "What should you do if there is new information discovered while writing the Summary?",
+          answer: Choice.C,
+          choices: {
+            Choice.A: "Add it immediately to the Summary",
+            Choice.B: "Mention it briefly and concisely",
+            Choice.C: "Include it in the conclusion subsection instead",
+            Choice.D: "Ignore it completely",
+          },
+        ),
+      ]
+    ),
+    Level(
+      level: 22,
+      levelName: Module 5 Chapter 5 Lesson 2,
+      monsterName: '???',
+      bg: 'assets/images/backgrounds/lvl2_bg.png',
+      monsterFilename: 'assets/images/monsters/lvl2_monster.png',
+      lesson: ref.read(reviewersProvider)[4].modules[4].lesson[1],
+      questions: [ 
+        Question(
+          question: "Which of the following is NOT a recommended practice for writing the conclusion of a study?",
+          answer: Choice.C,
+          choices: {
+            Choice.A: "Making generalizations based on the findings.",
+            Choice.B: "Directly addressing the general research question.",
+            Choice.C: "Including findings about populations outside the study's scope.",
+            Choice.D: "Drawing logical inferences from the findings",
+          },
+        ),
+        Question(
+          question: "What is the primary difference between the Summary and the Conclusion?",
+          answer: Choice.B,
+          choices: {
+            Choice.A: "The Summary includes numerical data, while the Conclusion avoids it.",
+            Choice.B: "The Conclusion provides insights and generalizations, while the Summary restates findings.",
+            Choice.C: "The Summary addresses the general research question, while the Conclusion does not.",
+            Choice.D: "The Conclusion introduces new findings, while the Summary does not.",
+          },
+        ),
+        Question(
+          question: "How should a conclusion handle insufficient evidence for a particular claim?",
+          answer: Choice.B,
+          choices: {
+            Choice.A: "Avoid addressing the claim entirely.",
+            Choice.B: "Modify or exclude the conclusion to ensure adequate support.",
+            Choice.C: "Use words like “maybe” or “perhaps” to express uncertainty.",
+            Choice.D: "Present the claim with a disclaimer about the insufficient evidence",
+          },
+        ),
+        Question(
+          question: "What is a critical requirement for all conclusions drawn in a study?",
+          answer: Choice.B,
+          choices: {
+            Choice.A: "They must apply universally to all populations in the study area.",
+            Choice.B: "They must be supported by adequate evidence from the study.",
+            Choice.C: "They must restate the findings in detail for clarity.",
+            Choice.D: "They must answer every specific research question.",
+          },
+        ),
+        Question(
+          question: "When addressing the general research question in the Conclusion, what approach is most appropriate?",
+          answer: Choice.B,
+          choices: {
+            Choice.A: "Restating the findings exactly as presented in the Summary",
+            Choice.B: "Inferring implications and providing logical consequences of findings",
+            Choice.C: "Including numerical figures to highlight key data",
+            Choice.D: "Expanding the scope to other populations for broader relevance",
+          },
+        ),
+      ]
+    ),
+    Level(
+      level: 23,
+      levelName: Module 5 Chapter 5 Lesson 3,
+      monsterName: '???',
+      bg: 'assets/images/backgrounds/lvl0_bg.png',
+      monsterFilename: 'assets/images/monsters/lvl0_monster.png',
+      lesson: ref.read(reviewersProvider)[4].modules[4].lesson[2],
+      questions: [ 
+        Question(
+          question: "According to Barrot (2022), what is a critical aspect of writing recommendations?",
+          answer: Choice.A,
+          choices: {
+            Choice.A: "They should address limitations of the study that were unavoidable during research.",
+            Choice.B: "They must provide general solutions applicable to any field of study.",
+            Choice.C: "They should propose remedies for every constraint encountered in the study.",
+            Choice.D: "They must avoid aligning with the study's conclusions.",
+          },
+        ),
+        Question(
+          question: "Which of the following is an appropriate focus for recommendations?",
+          answer: Choice.B,
+          choices: {
+            Choice.A: "Suggesting theoretical research that lacks practical application.",
+            Choice.B: "Proposing detailed solutions that directly address agenda issues from the findings.",
+            Choice.C: "Reiterating findings without offering actionable solutions.",
+            Choice.D: "Avoiding future studies to concentrate on current limitations.",
+          },
+        ),
+        Question(
+          question: "What makes recommendations specific and practical?",
+          answer: Choice.C,
+          choices: {
+            Choice.A: "Generalizing solutions for use across multiple contexts",
+            Choice.B: "Avoiding direct alignment with the study’s conclusions",
+            Choice.C: "Outlining detailed, feasible plans of action based on the research findings",
+            Choice.D: "Proposing actions that are theoretical and difficult to implement",
+          },
+        ),
+        Question(
+          question: "What makes a recommendation feasible and specific?",
+          answer: Choice.A,
+          choices: {
+            Choice.A: "It is directly linked to the conclusions and proposes clear actions.",
+            Choice.B: "It discusses the findings broadly to include various contexts.",
+            Choice.C: "It focuses on theoretical implications rather than practical solutions.",
+            Choice.D: "It generalizes the findings to cover populations outside the study’s scope.",
+          },
+        ),
+        Question(
+          question: "When addressing study limitations, what is the best approach?",
+          answer: Choice.A,
+          choices: {
+            Choice.A: "Recommend improvements for limitations that were unavoidable.",
+            Choice.B: "Include all limitations, even those that could have been resolved during the study.",
+            Choice.C: "Ignore limitations and focus only on findings.",
+            Choice.D: "Avoid discussing limitations to keep the recommendations concise.",
+          },
+        ),
+      ]
+    ),
     
-
-
-
-
-// 1-6

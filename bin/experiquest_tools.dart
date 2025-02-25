@@ -1,46 +1,46 @@
+import 'dart:io';
+
 List<String> datas = [
   '''
 PRACTICAL RESEARCH 1 
-Module 1: Chapter 1
-Lesson 5: Definition of Terms
+Module 5: Chapter 5
+Lesson 3: Recommendations
 
-1. What is the primary purpose of the Definition of Terms section in a research study?
-A) To present the research findings in a concise manner
-B) To clarify significant terms and concepts used in the study
-C) To summarize the literature review
-D) To provide a general overview of the methodology
+1. According to Barrot (2022), what is a critical aspect of writing recommendations?
+A) They should address limitations of the study that were unavoidable during research.
+B) They must provide general solutions applicable to any field of study.
+C) They should propose remedies for every constraint encountered in the study.
+D) They must avoid aligning with the study's conclusions.
 
-2. Which of the following is an example of a theoretical definition of terms?
-A) Children with special needs refer to children with disabilities in Manila's slum areas.
-B) Children with special needs are children with any of the following disabilities: mental retardation, speech impairment, etc.
-C) Children with special needs are those who are diagnosed by a medical professional.
-D) Children with special needs are those participating in a school-based program.
+2. Which of the following is an appropriate focus for recommendations?
+A) Suggesting theoretical research that lacks practical application.
+B) Proposing detailed solutions that directly address agenda issues from the findings.
+C) Reiterating findings without offering actionable solutions.
+D) Avoiding future studies to concentrate on current limitations.
 
-3. In the operational definition of terms, how are terms described?
-A) Based on their common, ordinary meaning
-B) Based on how they are used in the context of the study
-C) According to their dictionary definitions
-D) In relation to historical events and findings
+3. What makes recommendations specific and practical?
+A) Generalizing solutions for use across multiple contexts
+B) Avoiding direct alignment with the study’s conclusions
+C) Outlining detailed, feasible plans of action based on the research findings
+D) Proposing actions that are theoretical and difficult to implement
 
-4. What is the difference between theoretical and operational definitions of terms?
-A) Theoretical definitions focus on the context of the study, while operational definitions are based on common meanings.
-B) Theoretical definitions provide specific details related to the study, while operational definitions focus on general meanings.
-C) Theoretical definitions describe terms in general terms, while operational definitions are specific to the study's context.
-D) There is no significant difference between theoretical and operational definitions.
+4. What makes a recommendation feasible and specific?
+A) It is directly linked to the conclusions and proposes clear actions.
+B) It discusses the findings broadly to include various contexts.
+C) It focuses on theoretical implications rather than practical solutions.
+D) It generalizes the findings to cover populations outside the study’s scope.
 
-5. Why is it important to have reliable definitions of terms in a research study?
-A) To ensure that the study’s methodology is fully detailed
-B) To clarify any confusion for the readers and maintain consistency in the research
-C) To make the study sound more professional
-D) To avoid including too many variables in the study
-
-
+5. When addressing study limitations, what is the best approach?
+A) Recommend improvements for limitations that were unavoidable.
+B) Include all limitations, even those that could have been resolved during the study.
+C) Ignore limitations and focus only on findings.
+D) Avoid discussing limitations to keep the recommendations concise.
 ''',
 ];
 
 void main() {
   for (int i = 0; i < datas.length; i++) {
-    int index = i + 9;
+    int index = i + 21;
 
     String data = datas[i];
 
@@ -56,10 +56,9 @@ void main() {
       bg: 'assets/images/backgrounds/lvl${index % 3}_bg.png',
       monsterFilename: 'assets/images/monsters/lvl${index % 3}_monster.png',
       lesson: ref.read(reviewersProvider)[${module - 1}].modules[${chapter - 1}].lesson[${lesson - 1}],
-      
       questions: [ 
         Question(
-          question: "${getSentenceAfterString(data: data, string: '1.', delimiter: '?')}",
+          question: "${getSentenceAfterString(data: data, string: '1.',)}",
           answer: ,
           choices: {
             Choice.A: "${getSentenceAfterString(data: data, string: 'A)', startingString: '1.')}",
@@ -69,7 +68,7 @@ void main() {
           },
         ),
         Question(
-          question: "${getSentenceAfterString(data: data, string: '2.', delimiter: '?')}",
+          question: "${getSentenceAfterString(data: data, string: '2.')}",
           answer: ,
           choices: {
             Choice.A: "${getSentenceAfterString(data: data, string: 'A)', startingString: '2.')}",
@@ -79,7 +78,7 @@ void main() {
           },
         ),
         Question(
-          question: "${getSentenceAfterString(data: data, string: '3.', delimiter: '?')}",
+          question: "${getSentenceAfterString(data: data, string: '3.')}",
           answer: ,
           choices: {
             Choice.A: "${getSentenceAfterString(data: data, string: 'A)', startingString: '3.')}",
@@ -89,7 +88,7 @@ void main() {
           },
         ),
         Question(
-          question: "${getSentenceAfterString(data: data, string: '4.', delimiter: '?')}",
+          question: "${getSentenceAfterString(data: data, string: '4.')}",
           answer: ,
           choices: {
             Choice.A: "${getSentenceAfterString(data: data, string: 'A)', startingString: '4.')}",
@@ -99,7 +98,7 @@ void main() {
           },
         ),
         Question(
-          question: "${getSentenceAfterString(data: data, string: '5.', delimiter: '?')}",
+          question: "${getSentenceAfterString(data: data, string: '5.')}",
           answer: ,
           choices: {
             Choice.A: "${getSentenceAfterString(data: data, string: 'A)', startingString: '5.')}",
@@ -113,6 +112,9 @@ void main() {
     ''';
 
     print(level);
+
+    File file = File('output.txt');
+    file.writeAsStringSync(level ,mode: FileMode.append);
   }
 }
 
